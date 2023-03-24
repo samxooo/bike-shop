@@ -1,0 +1,63 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 90vh;
+  justify-content: space-evenly;
+}
+
+.detail-img {
+  width: 30rem;
+  height: auto;
+  border-radius: 10px;
+}
+
+.details {
+  flex-wrap: wrap;
+  width: 30rem;
+}
+
+.details div {
+  margin-top: 1rem;
+}
+
+.location {
+  color: grey;
+  font-size: 14px;
+}
+
+.name {
+  font-size: 25px;
+  font-weight: 600;
+  color: #002D62;
+}
+
+.year {
+  font-size: 20px;
+  font-weight: 600;
+  color: #002D62;
+}
+
+.size {
+  font-size: 20px;
+  font-weight: 600;
+  color: #002D62;
+}
+
+.add-to-cart {
+  margin-top: 10px;
+  width: 250px;
+  height: 40px;
+  border: none;
+  background-color: #002D62;
+  border-radius: 5px;
+  color: white;
+  transition-duration: 0.5s;
+}
+
+.add-to-cart:hover {
+  background-color: white;
+  color: #002D62;
+  border: 1px solid #002D62;
+}

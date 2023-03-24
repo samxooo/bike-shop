@@ -1,0 +1,11 @@
+<div class="container">
+  <img [src]="bikes.imagePath" [alt]="bikes.name" class="detail-img">
+  <div class="details">
+    <div class="location"><span>{{bikes.location}}</span></div>
+    <div class="name"><span>{{bikes.name}}</span></div>
+    <div class="year"><span>{{bikes.year}}</span></div>
+    <div class="size"><span>{{bikes.size}}</span></div>
+    <div class="desc"><span>{{bikes.desc}}</span></div>
+    <button class="add-to-cart" (click)="addToCart()">Add To Cart</button>
+  </div>
+</div>

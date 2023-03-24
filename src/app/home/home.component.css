@@ -1,0 +1,71 @@
+
+ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  list-style-type: none;
+  padding: 0;
+}
+
+.gps {
+  color: grey;
+  font-size: 13px;
+}
+
+
+li a {
+  border: 1px solid whitesmoke;
+  margin: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  width: 20rem;
+  height: 22.5rem;
+  border-radius: 0.5rem;
+  overflow: hidden;
+  color: #002D62;
+  font-weight: 650;
+  font-size: 16px;
+  transition-duration: 0.5s;
+  text-decoration: none;
+}
+
+.content-img {
+  width: 20rem;
+  height: 10rem;
+}
+
+.content {
+  padding: .5rem 1rem;
+}
+
+span {
+  color: black;
+}
+
+.name {
+  margin-top: .5rem;
+}
+
+.price {
+  color: black;
+  font-size: 18px;
+  font-weight: 450;
+  margin-top: .7rem;
+}
+
+.content div {
+  margin: 5px;
+}
+
+.buy-btn {
+  margin-top: .4rem;
+  width: 150px;
+  height: 40px;
+  border: none;
+  background-color: #002D62;
+  color: #fff;
+  border-radius: 5px;
+}
+
+

@@ -1,0 +1,16 @@
+
+<ul>
+  <li *ngFor="let bike of bikes">
+    <a routerLink="/detail/{{bike.id}}">
+      <img [src]="bike.imagePath" class="content-img">
+
+      <div class="content">
+        <div class="gps">{{bike.location}}</div>
+        <div class="name">{{bike.name}}r</div>
+        <div class="year">{{bike.year}}</div>
+        <div class="size">{{bike.size}}</div>
+        <div class="price">{{bike.price | currency}}</div>
+      </div>
+    </a>
+  </li>
+</ul>
